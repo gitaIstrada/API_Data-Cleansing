@@ -1,0 +1,5 @@
+﻿
+**********************
+Command start time: 20221005202925
+**********************
+PS>. 'C:\Users\Dida\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'
