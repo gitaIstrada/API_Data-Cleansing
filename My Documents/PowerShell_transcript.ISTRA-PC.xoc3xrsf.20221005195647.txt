@@ -1,0 +1,111 @@
+﻿
+**********************
+Command start time: 20221005195648
+**********************
+PS>. 'C:\Users\Dida\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'
+
+**********************
+Command start time: 20221005195648
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '1887' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py:13: DeprecationWarning: 'app.j
+son_encoder' is deprecated and will be removed in Flask 2.3. Customize 'app.json_provider_class' or 'app.json' instead.
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+
+**********************
+Command start time: 20221005200208
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '1934' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py:13: DeprecationWarning: 'app.j
+son_encoder' is deprecated and will be removed in Flask 2.3. Customize 'app.json_provider_class' or 'app.json' instead.
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+
+**********************
+Command start time: 20221005201135
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2013' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API un
+ted and will be removed in Flask 2.3. Customize 'app.json_
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+
+**********************
+Command start time: 20221005201528
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2046' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API un
+ted and will be removed in Flask 2.3. Customize 'app.json_
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+
+**********************
+Command start time: 20221005201730
+**********************
+I untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2068' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API un
+tuk Data Cleansing\coba_swagger.py:13: DeprecationWarning:
+ 'app.json_encoder' is deprecated and will be removed in F
+lask 2.3. Customize 'app.json_provider_class' or 'app.json
+' instead.
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a
+production deployment. Use a production WSGI server instea
+d.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+
+**********************
+Command start time: 20221005202239
+**********************
+I untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2099' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API un
+tuk Data Cleansing\coba_swagger.py:13: DeprecationWarning:
+ 'app.json_encoder' is deprecated and will be removed in F
+lask 2.3. Customize 'app.json_provider_class' or 'app.json
+' instead.
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a
+production deployment. Use a production WSGI server instea
+d.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+
+**********************
+Command start time: 20221005202458
+**********************
+I untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2140' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API un
+tuk Data Cleansing\coba_swagger.py:13: DeprecationWarning:
+ 'app.json_encoder' is deprecated and will be removed in F
+lask 2.3. Customize 'app.json_provider_class' or 'app.json
+' instead.
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a
+production deployment. Use a production WSGI server instea
+d.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit

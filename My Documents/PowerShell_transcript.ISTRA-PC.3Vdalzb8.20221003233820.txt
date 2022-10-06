@@ -1,0 +1,80 @@
+﻿
+**********************
+Command start time: 20221003233820
+**********************
+PS>. 'C:\Users\Dida\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'
+
+**********************
+Command start time: 20221003233822
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing> & C:/Users/Dida/AppData/Local/Programs/Python/Python310/python.exe "c:/Users/Dida/Desktop/BINAR bootcamp/Gold Challange/API untuk Data Cleansing/coba_swagger.py"
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py", line 68
+    alay_dict = pd.read_csv('docs\new_kamusalay.csv, encoding='iso-8859-1', header=None)
+                                                                         ^
+SyntaxError: unterminated string literal (detected at line 68)
+
+**********************
+Command start time: 20221003233934
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing> & C:/Users/Dida/AppData/Local/Programs/Python/Python310/python.exe "c:/Users/Dida/Desktop/BINAR bootcamp/Gold Challange/API untuk Data Cleansing/coba_swagger.py"
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py", line 68
+    alay_dict = pd.read_csv('docs\new_kamusalay.csv, encoding='iso-8859-1', header=None')
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+**********************
+Command start time: 20221003234037
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing> & C:/Users/Dida/AppData/Local/Programs/Python/Python310/python.exe "c:/Users/Dida/Desktop/BINAR bootcamp/Gold Challange/API untuk Data Cleansing/coba_swagger.py"
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py", line 68
+    alay_dict = pd.read_csv('docs\new_kamusalay.csv, encoding='iso-8859-1', header=None')
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+**********************
+Command start time: 20221003234120
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing> & C:/Users/Dida/AppData/Local/Programs/Python/Python310/python.exe "c:/Users/Dida/Desktop/BINAR bootcamp/Gold Challange/API untuk Data Cleansing/coba_swagger.py"
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py", line 68
+    alay_dict = pd.read_csv('docs\new_kamusalay.csv, encoding='iso-8859-1', header=None')
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+**********************
+Command start time: 20221003234150
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing> & C:/Users/Dida/AppData/Local/Programs/Python/Python310/python.exe "c:/Users/Dida/Desktop/BINAR bootcamp/Gold Challange/API untuk Data Cleansing/coba_swagger.py"
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py", line 68
+    alay_dict = pd.read_csv('docs\new_kamusalay.csv, encoding='iso-8859-1', header=None'),
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+**********************
+Command start time: 20221003234502
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing> & C:/Users/Dida/AppData/Local/Programs/Python/Python310/python.exe "c:/Users/Dida/Desktop/BINAR bootcamp/Gold Challange/API untuk Data Cleansing/for_cleaning"
+
+
+**********************
+Command start time: 20221003234529
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing> & C:/Users/Dida/AppData/Local/Programs/Python/Python310/python.exe "c:/Users/Dida/Desktop/BINAR bootcamp/Gold Challange/API untuk Data Cleansing/coba_swagger.py"
+Traceback (most recent call last):
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py", line 6, in <module>
+    from for_cleaning import *
+ModuleNotFoundError: No module named 'for_cleaning'
+
+**********************
+Command start time: 20221003235450
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing> & C:/Users/Dida/AppData/Local/Programs/Python/Python310/python.exe "c:/Users/Dida/Desktop/BINAR bootcamp/Gold Challange/API untuk Data Cleansing/for_cleaning"
+
+
+**********************
+Command start time: 20221003235535
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing> & C:/Users/Dida/AppData/Local/Programs/Python/Python310/python.exe "c:/Users/Dida/Desktop/BINAR bootcamp/Gold Challange/API untuk Data Cleansing/coba_swagger.py"
+Traceback (most recent call last):
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py", line 6, in <module>
+    from for_cleaning import *
+ModuleNotFoundError: No module named 'for_cleaning'

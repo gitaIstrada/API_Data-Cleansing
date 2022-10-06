@@ -1,0 +1,482 @@
+﻿
+**********************
+Command start time: 20221005203000
+**********************
+PS>. 'C:\Users\Dida\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'
+
+**********************
+Command start time: 20221005203001
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2267' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py:13: DeprecationWarning: 'app.j
+son_encoder' is deprecated and will be removed in Flask 2.3. Customize 'app.json_provider_class' or 'app.json' instead.
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [05/Oct/2022 20:30:10] "GET /docs/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2022 20:30:10] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:30:10] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:30:10] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:30:10] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 304 -
+[2022-10-05 20:30:10,934] ERROR in app: Exception on /docs.json [GET]
+Traceback (most recent call last):
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\utils.py", line 546, in load_from_
+file
+    enc = detect_by_bom(swag_path)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\utils.py", line 575, in detect_by_
+bom
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\Users\\Dida\\Desktop\\BINAR bootcamp\\Gold Challange\\API untu
+k Data Cleansing\\docs/hello_world.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\utils.py", line 555, in load_from_
+file
+    enc = detect_by_bom(swag_path)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\utils.py", line 575, in detect_by_
+bom
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\Users\\Dida\\Desktop\\BINAR bootcamp\\Gold Challange\\API untu
+k Data Cleansing\\docs/hello_world.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1822, in full_dispatch_
+request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1820, in full_dispatch_
+request
+    rv = self.dispatch_request()
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1796, in dispatch_reque
+st
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 188, in dispatch_requ
+est
+    return current_app.ensure_sync(meth)(**kwargs)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\base.py", line 133, in get
+    return jsonify(self.loader())
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\base.py", line 399, in get_apispec
+s
+    specs = get_specs(
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\utils.py", line 153, in get_specs
+    doc_summary, doc_description, doc_swag = parse_docstring(
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\utils.py", line 605, in parse_docs
+tring
+    full_doc = load_from_file(swag_paths[key], swag_type)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\utils.py", line 568, in load_from_
+file
+    site_package = imp.find_module(path[0])[1]
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\imp.py", line 297, in find_module
+    raise ImportError(_ERR_MSG.format(name), name=name)
+ImportError: No module named 'Users'
+127.0.0.1 - - [05/Oct/2022 20:30:10] "GET /docs.json HTTP/1.1" 500 -
+127.0.0.1 - - [05/Oct/2022 20:30:21] "GET /docs/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2022 20:30:21] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:30:21] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:30:21] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:30:21] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 304 -
+[2022-10-05 20:30:21,478] ERROR in app: Exception on /docs.json [GET]
+Traceback (most recent call last):
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\utils.py", line 546, in load_from_
+file
+    enc = detect_by_bom(swag_path)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\utils.py", line 575, in detect_by_
+bom
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\Users\\Dida\\Desktop\\BINAR bootcamp\\Gold Challange\\API untu
+k Data Cleansing\\docs/hello_world.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\utils.py", line 555, in load_from_
+file
+    enc = detect_by_bom(swag_path)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\utils.py", line 575, in detect_by_
+bom
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\Users\\Dida\\Desktop\\BINAR bootcamp\\Gold Challange\\API untu
+k Data Cleansing\\docs/hello_world.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1822, in full_dispatch_
+request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1820, in full_dispatch_
+request
+    rv = self.dispatch_request()
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1796, in dispatch_reque
+st
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 107, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 188, in dispatch_requ
+est
+    return current_app.ensure_sync(meth)(**kwargs)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\base.py", line 133, in get
+    return jsonify(self.loader())
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\base.py", line 399, in get_apispec
+s
+    specs = get_specs(
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\utils.py", line 153, in get_specs
+    doc_summary, doc_description, doc_swag = parse_docstring(
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\utils.py", line 605, in parse_docs
+tring
+    full_doc = load_from_file(swag_paths[key], swag_type)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flasgger\utils.py", line 568, in load_from_
+file
+    site_package = imp.find_module(path[0])[1]
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\imp.py", line 297, in find_module
+    raise ImportError(_ERR_MSG.format(name), name=name)
+ImportError: No module named 'Users'
+127.0.0.1 - - [05/Oct/2022 20:30:21] "GET /docs.json HTTP/1.1" 500 -
+
+**********************
+Command start time: 20221005203140
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2290' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py:13: DeprecationWarning: 'app.j
+son_encoder' is deprecated and will be removed in Flask 2.3. Customize 'app.json_provider_class' or 'app.json' instead.
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [05/Oct/2022 20:31:49] "GET /docs/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2022 20:31:50] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:31:50] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:31:50] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:31:50] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:31:50] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:31:50] "GET /docs.json HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2022 20:32:03] "POST /text_processing_file HTTP/1.1" 200 -
+
+**********************
+Command start time: 20221005204013
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2734' '--' 'Untitled-1.ipynb' 
+Traceback (most recent call last):
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\__main__.py", line 39, i
+n <module>
+    cli.main()
+  File "c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py
+", line 430, in main
+    run()
+  File "c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py
+", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd
+_bundle\pydevd_runpy.py", line 320, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd
+_bundle\pydevd_runpy.py", line 289, in _get_code_from_file
+    with io_open_code(decoded_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Dida\\Desktop\\BINAR bootcamp\\Gold Challange\\API untu
+k Data Cleansing\\Untitled-1.ipynb'
+
+**********************
+Command start time: 20221005204017
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2742' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py:13: DeprecationWarning: 'app.j
+son_encoder' is deprecated and will be removed in Flask 2.3. Customize 'app.json_provider_class' or 'app.json' instead.
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+
+**********************
+Command start time: 20221005204024
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2751' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py:13: DeprecationWarning: 'app.j
+son_encoder' is deprecated and will be removed in Flask 2.3. Customize 'app.json_provider_class' or 'app.json' instead.
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [05/Oct/2022 20:40:35] "GET /docs/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2022 20:40:35] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:40:35] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:40:35] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:40:35] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:40:35] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:40:35] "GET /docs.json HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2022 20:40:43] "POST /text_processing HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2022 20:40:48] "POST /text_processing HTTP/1.1" 200 -
+
+**********************
+Command start time: 20221005204414
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2810' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py:13: DeprecationWarning: 'app.j
+son_encoder' is deprecated and will be removed in Flask 2.3. Customize 'app.json_provider_class' or 'app.json' instead.
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [05/Oct/2022 20:44:20] "GET /docs/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2022 20:44:20] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:44:20] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:44:20] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:44:20] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:44:21] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:44:21] "GET /docs.json HTTP/1.1" 200 -
+[2022-10-05 20:44:28,963] ERROR in app: Exception on /text_processing [POST]
+Traceback (most recent call last):
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1822, in full_dispatch_
+request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1820, in full_dispatch_
+request
+    rv = self.dispatch_request()
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1796, in dispatch_reque
+st
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py", line 56, in text_pro
+cessing
+    'data': preprocess(text)
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\joni.py", line 26, in preprocess
+    text = normalize_alay(text)
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\joni.py", line 20, in normalize_alay
+    return ''.join([alay_dict_map[word] if word in alay_dict_map else word for word in text.split(' ')])
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\joni.py", line 20, in <listcomp>
+    return ''.join([alay_dict_map[word] if word in alay_dict_map else word for word in text.split(' ')])
+NameError: name 'alay_dict_map' is not defined
+127.0.0.1 - - [05/Oct/2022 20:44:28] "POST /text_processing HTTP/1.1" 500 -
+[2022-10-05 20:44:32,423] ERROR in app: Exception on /text_processing [POST]
+Traceback (most recent call last):
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1822, in full_dispatch_
+request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1820, in full_dispatch_
+request
+    rv = self.dispatch_request()
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1796, in dispatch_reque
+st
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py", line 56, in text_pro
+cessing
+    'data': preprocess(text)
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\joni.py", line 26, in preprocess
+    text = normalize_alay(text)
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\joni.py", line 20, in normalize_alay
+    return ''.join([alay_dict_map[word] if word in alay_dict_map else word for word in text.split(' ')])
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\joni.py", line 20, in <listcomp>
+    return ''.join([alay_dict_map[word] if word in alay_dict_map else word for word in text.split(' ')])
+NameError: name 'alay_dict_map' is not defined
+127.0.0.1 - - [05/Oct/2022 20:44:32] "POST /text_processing HTTP/1.1" 500 -
+
+**********************
+Command start time: 20221005204541
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2840' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py:13: DeprecationWarning: 'app.j
+son_encoder' is deprecated and will be removed in Flask 2.3. Customize 'app.json_provider_class' or 'app.json' instead.
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+
+**********************
+Command start time: 20221005204550
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2850' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py:13: DeprecationWarning: 'app.j
+son_encoder' is deprecated and will be removed in Flask 2.3. Customize 'app.json_provider_class' or 'app.json' instead.
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+
+**********************
+Command start time: 20221005204618
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2862' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py:13: DeprecationWarning: 'app.j
+son_encoder' is deprecated and will be removed in Flask 2.3. Customize 'app.json_provider_class' or 'app.json' instead.
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+
+**********************
+Command start time: 20221005204629
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2871' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py:13: DeprecationWarning: 'app.j
+son_encoder' is deprecated and will be removed in Flask 2.3. Customize 'app.json_provider_class' or 'app.json' instead.
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [05/Oct/2022 20:46:34] "GET /docs/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2022 20:46:34] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:46:34] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:46:34] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:46:34] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:46:34] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:46:34] "GET /docs.json HTTP/1.1" 200 -
+[2022-10-05 20:46:46,267] ERROR in app: Exception on /text_processing [POST]
+Traceback (most recent call last):
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1822, in full_dispatch_
+request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1820, in full_dispatch_
+request
+    rv = self.dispatch_request()
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1796, in dispatch_reque
+st
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py", line 56, in text_pro
+cessing
+    'data': preprocess(text),
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\joni.py", line 29, in preprocess
+    text = normalize_alay(text)
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\joni.py", line 23, in normalize_alay
+    return ''.join([alay_dict_map[word] if word in alay_dict_map else word for word in text.split(' ')])
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\joni.py", line 23, in <listcomp>
+    return ''.join([alay_dict_map[word] if word in alay_dict_map else word for word in text.split(' ')])
+NameError: name 'alay_dict_map' is not defined
+127.0.0.1 - - [05/Oct/2022 20:46:46] "POST /text_processing HTTP/1.1" 500 -
+[2022-10-05 20:46:47,667] ERROR in app: Exception on /text_processing [POST]
+Traceback (most recent call last):
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1822, in full_dispatch_
+request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1820, in full_dispatch_
+request
+    rv = self.dispatch_request()
+  File "C:\Users\Dida\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1796, in dispatch_reque
+st
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py", line 56, in text_pro
+cessing
+    'data': preprocess(text),
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\joni.py", line 29, in preprocess
+    text = normalize_alay(text)
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\joni.py", line 23, in normalize_alay
+    return ''.join([alay_dict_map[word] if word in alay_dict_map else word for word in text.split(' ')])
+  File "c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\joni.py", line 23, in <listcomp>
+    return ''.join([alay_dict_map[word] if word in alay_dict_map else word for word in text.split(' ')])
+NameError: name 'alay_dict_map' is not defined
+127.0.0.1 - - [05/Oct/2022 20:46:47] "POST /text_processing HTTP/1.1" 500 -
+
+**********************
+Command start time: 20221005204750
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2897' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py:13: DeprecationWarning: 'app.j
+son_encoder' is deprecated and will be removed in Flask 2.3. Customize 'app.json_provider_class' or 'app.json' instead.
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [05/Oct/2022 20:47:55] "GET /docs/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2022 20:47:55] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:47:55] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:47:55] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:47:55] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:47:55] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:47:55] "GET /docs.json HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2022 20:48:02] "POST /text_processing HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2022 20:48:03] "POST /text_processing HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2022 20:48:12] "POST /text_processing HTTP/1.1" 200 -
+
+**********************
+Command start time: 20221005204833
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2917' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\joni.py' 
+
+
+**********************
+Command start time: 20221005204843
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '2929' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+
+
+
+
+
+
+
+
+127.0.0.1 - - [05/Oct/2022 20:48:51] "GET /docs/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2022 20:48:51] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:48:51] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:48:51] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:48:51] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:48:51] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 304 -
+127.0.0.1 - - [05/Oct/2022 20:48:51] "GET /docs.json HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2022 20:49:06] "POST /text_processing HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2022 20:49:19] "POST /text_processing HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2022 20:51:24] "POST /text_processing HTTP/1.1" 200 -
+
+**********************
+Command start time: 20221006173854
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '3428' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py:14: DeprecationWarning: 'app.j
+son_encoder' is deprecated and will be removed in Flask 2.3. Customize 'app.json_provider_class' or 'app.json' instead.
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+
+**********************
+Command start time: 20221006173945
+**********************
+PS C:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing>  c:; cd 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing'; & 'C:\Users\Dida\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dida\.vscode\extensions\ms-python.python-2022.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '3446' '--' 'c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py' 
+c:\Users\Dida\Desktop\BINAR bootcamp\Gold Challange\API untuk Data Cleansing\coba_swagger.py:14: DeprecationWarning: 'app.j
+son_encoder' is deprecated and will be removed in Flask 2.3. Customize 'app.json_provider_class' or 'app.json' instead.
+  app.json_encoder = LazyJSONEncoder
+ * Serving Flask app 'coba_swagger'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
